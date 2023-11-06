@@ -1,0 +1,277 @@
+@media only screen and (max-width: 768px) {
+.about{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.about-section{
+    width: 100%;
+    height: 760px;
+    background-image: url(../Images/about-back.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-block{
+    width: 340px;
+    height: 420px;
+    background-color: rgba(46, 45, 46, 0.80);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.about-text{
+    width: 307px;
+    height: 323px;
+    color: white;
+    font-size: 12px;
+    font-family: Montserrat;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 18px;
+    letter-spacing: 1.44px;
+    word-wrap: break-word;
+    margin-top: 70px;
+    text-align: center;
+}
+.trainers{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.trainer-block{
+    height: 280px;
+    width: 340px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #2E2D2E;
+    display: flex;
+    flex-direction: row;
+}
+.trainer-img{
+    height: 280px;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px;
+}
+.img-1{
+    background-image: url(../Images/trener1.JPG); 
+}
+.img-2{
+    background-image: url(../Images/trener2.JPG); 
+}
+.img-3{
+    background-image: url(../Images/trener3.JPG); 
+}
+/* .img-4{
+    background-image: url(../Images/trener3.JPG); 
+}
+.img-5{
+    background-image: url(../Images/trener3.JPG); 
+} */
+.img-6{
+    background-image: url(../Images/trener6.JPG); 
+}
+.trainer-text-block{
+    right:50%;
+    top: 0;
+    height: 400px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.trainer-header{
+    margin-bottom: 0px;
+    width: 180px;
+    height: 50px;
+    font-size: 16px;
+}
+h4{
+    color: white;
+    font-size: 10px;
+    font-family: Montserrat;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 17px;
+    letter-spacing: 0.72px;
+    word-wrap: break-word;
+    width: 180px;
+    height: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.trainer-description{
+    width: 150px;
+    height: 175px;
+    color: white;
+    font-size: 7px;
+    font-family: Montserrat;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 12px;
+    letter-spacing: 0.30px;
+    word-wrap: break-word
+}
+.trainers-row{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.sponsors{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.sponsors-block{
+    width: 100%;
+    height: 330px;
+    background-color: #2E2D2E;
+    background-size: cover;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sponsors-header{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #8BC43D;
+
+}
+.sponsors-text{
+    width: 330px;
+    height: 150px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 22px;
+    letter-spacing: 1.44px;
+    word-wrap: break-word;
+    text-align: center;
+}
+.btn-download{
+    width: 205px;
+    height: 50px;
+    background-color: #8BC43D;
+    color: black;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing: 0.64px;
+    word-wrap: break-word
+}
+
+.gallery{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#main-photo-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.arrows{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.main-photo {
+    max-width: 300px;
+    border-radius: 10px;
+}
+.thumbnail-container {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+.thumbnail {
+    cursor: pointer;
+    margin: 5px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+}
+.thumbnail:hover {
+    border: 2px solid #333;
+}
+.thumbnail.active {
+    border: 2px solid #333;
+}
+.footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 560px;
+    background-color: #2E2D2E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        }
+.footer-map{
+    margin-top: 30px;
+    width: 100%;
+    height: 210px;
+    background-color: #8BC43D;
+    filter: grayscale(100%) invert(92%) contrast(90%);
+}
+.footer-header{
+    margin-bottom: 10px;
+}
+.footer-text-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-text{
+    color: white;
+    font-size: 12px;
+    font-family: Montserrat;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 20px;
+    letter-spacing: 0.72px;
+    word-wrap: break-word;
+    text-align: center;
+        }
+.social-icons{
+    margin-top: 25px;
+}
+.icons{
+    width: 32px;
+    height: 32px;
+    margin-right: 20px;
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    height: 32px;
+    width: 32px;
+    background: none;
+}
+
+}
