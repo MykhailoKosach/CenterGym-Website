@@ -37,6 +37,9 @@
         width: 80px;
         height: 80px;
     }
+    .navbar-mobile{
+        display: none;
+    }
     nav{
         display: flex;
         flex-direction: row;
