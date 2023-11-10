@@ -5,13 +5,13 @@ const nextButton = document.getElementById("nextButton");
 
 let currentIndex = 0;
 const images = [
-    "/Images/photo1.jpg",
-    "/Images/photo2.jpg",
-    "/Images/photo3.jpg",
-    "/Images/photo4.jpg",
-    "/Images/photo5.jpg",
-    "/Images/photo6.jpg",
-    "/Images/photo7.jpg",
+    "/Images/photo1.JPG",
+    "/Images/photo2.JPG",
+    "/Images/photo3.JPG",
+    "/Images/photo4.JPG",
+    "/Images/photo5.JPG",
+    "/Images/photo6.JPG",
+    "/Images/photo7.JPG",
     // Add more image URLs here...
 ];
 const visibleThumbnails = 5;

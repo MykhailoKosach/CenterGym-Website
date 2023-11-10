@@ -133,7 +133,7 @@ h4{
 }
 .sponsors-block{
     width: 100%;
-    height: 330px;
+    height: 350px;
     background-color: #2E2D2E;
     background-size: cover;
     margin-top: 40px;
@@ -145,6 +145,7 @@ h4{
     margin-top: 30px;
     margin-bottom: 30px;
     color: #8BC43D;
+    text-align: center;
 
 }
 .sponsors-text{
@@ -188,6 +189,7 @@ h4{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    max-width: 100%;
 }
 .arrows{
     margin-left: 20px;
@@ -200,7 +202,11 @@ h4{
 .thumbnail-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     max-width: 100%;
+}
+#thumbnails{
+    max-width: 90%;
 }
 .thumbnail {
     cursor: pointer;

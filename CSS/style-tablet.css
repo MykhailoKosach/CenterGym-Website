@@ -51,6 +51,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        width: 541px;
     }
     .nav-list-mobile{
         display: none;
@@ -74,6 +75,8 @@
     .lang-item{
         text-decoration: none;
         color:white;
+        margin-left: 2px;
+        margin-right: 2px;
     }
     .active{
         color:#8BC43D;
