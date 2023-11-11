@@ -22,9 +22,10 @@
             </div>
             <nav>
             <div class="nav-list">
-                <a class="nav-item active" href="index.html">Головна</a>
+                <!-- <a class="nav-item active" href="index.html">Головна</a> -->
                 <a class="nav-item" href="#memberships">Абонементи</a>
-                <a class="nav-item" href="#schedule">Розклад</a>
+                <a class="nav-item schedule-display" href="#schedule">Розклад</a>
+                <a class="nav-item schedule-tablet-display" href="#schedule-tablet">Розклад</a>
                 <a class="nav-item" href="#about">Про нас</a>
                 <a class="nav-item" href="#trainers">Тренери</a>
                 <a class="nav-item" href="#sponsors">Партнерам</a>
@@ -40,6 +41,29 @@
             </div>
             </nav>
         </div>
+
+
+        <div class="header-mobile">
+          <a href="#home"><img src="/Images/CENTER MMA•TRX•CROSSFIT.png" alt="logo" class="logo-img"></a>
+          <div id="myLinks">
+            <a class="nav-item" href="#memberships">Абонементи</a>
+            <a class="nav-item" href="#schedule-mobile">Розклад</a>
+            <a class="nav-item" href="#about">Про нас</a>
+            <a class="nav-item" href="#trainers">Тренери</a>
+            <a class="nav-item" href="#sponsors">Партнерам</a>
+            <a class="nav-item" href="#gallery">Галерея</a>
+            <a class="nav-item" href="#footer">Контакти</a>
+            <div class="language">
+                <a class="lang-item active" href="index.html">UA</a>
+                |
+                <a class="lang-item" href="index-cz.html">CZ</a>
+            </div>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <img src="/Images/more1.png" alt="" class="burgerimg">
+          </a>
+        </div>
+
     </header>
     <section class="main">
             <div class="main-text">
@@ -304,7 +328,7 @@
             <div class="schedule-cell-empty"></div>
         </div>
     </section>
-    <section class="schedule-mobile" id="schedule">
+    <section class="schedule-mobile" id="schedule-mobile">
         <h2>Розклад</h2>
         <div class="block-row">
             <div class="schedule-block">
@@ -486,7 +510,7 @@
             </div>
 
     </section>
-    <section class="schedule-tablet" id="schedule">
+    <section class="schedule-tablet" id="schedule-tablet">
         <h2>Розклад</h2>
         <div class="block-row">
             <div class="schedule-block">
@@ -784,8 +808,8 @@
     <section class="sponsors" id="sponsors">
        <div class="sponsors-block">
         <h2 class="sponsors-header">Стань нашим партнером</h2>
-        <div class="sponsors-text">тут буде класний кол ту екшн текст який любязно створять наш і копірайтери. а поки тут буде цей тескт замість стандарного lorem ipsum або бла бла бла бла</div>
-        <a href="https://drive.google.com/uc?export=download&id=1mW5NsbtRPYReMAxi_0G9i91cvrY7XatI"><button class="btn-download" type="button">скачати</button></a>
+        <div class="sponsors-text">Приєднуйся до нашої спортивної спільноти та отримай визнання, повагу та впізнаваність свого бізнесу на міжнародній арені спортсменів.</div>
+        <a href="https://drive.google.com/uc?export=download&id=1mW5NsbtRPYReMAxi_0G9i91cvrY7XatI"><button class="btn-download" type="button">Умови</button></a>
        </div>
     </section>
     <section class="gallery" id="gallery">
@@ -793,7 +817,9 @@
 
          <div id="main-photo-block">
             <img class="arrows" id="prevButton" src="/Images/left-arrow (2).png" alt="left-arrow">
-            <img id="main-photo" class="main-photo" src="/Images/photo1.JPG", alt="Main Photo">
+            <div class="gallery-widht">
+                <img id="main-photo" class="main-photo" src="/Images/photo1.JPG", alt="Main Photo">
+            </div>
             <img class="arrows" id="nextButton" src="/Images/right-arrow (2).png" alt="right-arrow">
         </div>
         <div id="thumbnails">

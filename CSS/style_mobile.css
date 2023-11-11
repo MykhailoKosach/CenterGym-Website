@@ -1,4 +1,6 @@
 @media only screen and (max-width: 768px) {
+    
+    
     body{
         margin: 0px;
         background-color: black;
@@ -9,7 +11,8 @@
         background-color: black;
         margin: 0px;
         padding: 0px;
-        display: flex;
+        /* display: flex; */
+        display: none;
         align-content: center;
         justify-content: center;
         flex-direction: row;
@@ -26,28 +29,99 @@
         background-color: black;
     }
     .logo-img{
+        margin-left: 5px;
+        margin-top: 5px;
         width: 80px;
         height: 80px;
     }
 
+    .language{
+        display: flex;
+        flex-direction: row;
 
-    
-    .navbar-mobile{
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
-    
-  
-    .nav{
-        display: none;
+    .lang-item{
+        margin-left: 10px;
+        margin-right: 10px;
     }
-    .nav-list{
-        display: none;
+    .active{
+        color: #8BC43D;
+    }
+
+    .header-mobile {
+        background-color: #000000;
+        position: relative;
     }
     .nav-item{
-        display: none;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
-    .language{
+      /* Hide the links inside the navigation menu (except for logo/home) */
+    .header-mobile #myLinks {
         display: none;
+      }
+      
+      /* Style navigation menu links */
+    .header-mobile a {
+        color: white;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
     }
+      
+      /* Style the hamburger menu */
+    .header-mobile a.icon {
+        background: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        position: absolute; 
+        right: 5px;
+        top: 0;
+        width: 90px;
+        height: 90px;
+        padding-right: 10px;
+    }
+
+    .burgerimg{
+        height: 24px;
+        width: 30px;
+
+    }
+    #myLinks{
+        color: white;
+        font-size: 10px;
+        font-family: Montserrat;
+        font-weight: 600;
+        text-transform: uppercase;
+        line-height: 30px;
+        letter-spacing: 0.56px;
+        word-wrap: break-word;
+        text-align: center;
+    }
+      
+      /* Add a grey background color on mouse-over
+      .header-mobile a:hover {
+        background-color: #ddd;
+        color: black;
+      } */
+      
+      /* Style the active link (or home/logo) */
+      /* .active {
+        background-color: black;
+        color: white;
+        height: 90px;
+        width: 100%;
+      } */
+
+
+    /* __________________________________________ */
+
+
     h1{
         color: #8BC43D;
         font-family: Montserrat;

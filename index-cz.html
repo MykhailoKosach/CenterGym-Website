@@ -22,9 +22,10 @@
             </div>
             <nav>
             <div class="nav-list">
-                <a class="nav-item active" href="index.html">hlavní</a>
+                <!-- <a class="nav-item active" href="index.html">hlavní</a> -->
                 <a class="nav-item" href="#memberships">Předplatné</a>
-                <a class="nav-item" href="#schedule">Plán</a>
+                <a class="nav-item schedule-display" href="#schedule">Plán</a>
+                <a class="nav-item schedule-tablet-display" href="#schedule-tablet">Plán</a>
                 <a class="nav-item" href="#about">O nás</a>
                 <a class="nav-item" href="#trainers">Trenéři</a>
                 <a class="nav-item" href="#sponsors">K partnerům</a>
@@ -40,6 +41,28 @@
             </div>
             </nav>
         </div>
+
+
+        <div class="header-mobile">
+            <a href="#home"><img src="/Images/CENTER MMA•TRX•CROSSFIT.png" alt="logo" class="logo-img"></a>
+            <div id="myLinks">
+              <a class="nav-item" href="#memberships">Předplatné</a>
+              <a class="nav-item" href="#schedule-mobile">Plán</a>
+              <a class="nav-item" href="#about">O nás</a>
+              <a class="nav-item" href="#trainers">Trenéři</a>
+              <a class="nav-item" href="#sponsors">K partnerům</a>
+              <a class="nav-item" href="#gallery">Galerie</a>
+              <a class="nav-item" href="#footer">Kontakty</a>
+              <div class="language">
+                  <a class="lang-item active" href="index.html">UA</a>
+                  |
+                  <a class="lang-item" href="index-cz.html">CZ</a>
+              </div>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <img src="/Images/more1.png" alt="" class="burgerimg">
+            </a>
+          </div>
     </header>
     <section class="main">
             <div class="main-text">
@@ -304,7 +327,7 @@
             <div class="schedule-cell-empty"></div>
         </div>
     </section>
-    <section class="schedule-mobile" id="schedule">
+    <section class="schedule-mobile" id="schedule-mobile">
         <h2>Plán</h2>
         <div class="block-row">
             <div class="schedule-block">
@@ -486,7 +509,7 @@
             </div>
 
     </section>
-    <section class="schedule-tablet" id="schedule">
+    <section class="schedule-tablet" id="schedule-tablet">
         <h2>Plán</h2>
         <div class="block-row">
             <div class="schedule-block">
