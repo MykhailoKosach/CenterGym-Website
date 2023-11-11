@@ -7,12 +7,13 @@
 .about-section{
     width: 100%;
     height: 760px;
-    background-image: url(../Images/about-back.png);
+    background-image: url(../Images/about-back-mobile.JPG);
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* filter: blur(1px); */
 }
 .about-block{
     width: 340px;
@@ -21,6 +22,7 @@
     display: flex;
     justify-content: center;
     border-radius: 10px;
+    filter: none;
 }
 .about-text{
     width: 307px;
@@ -35,6 +37,7 @@
     word-wrap: break-word;
     margin-top: 70px;
     text-align: center;
+    filter: none;
 }
 .trainers{
     display: flex;
