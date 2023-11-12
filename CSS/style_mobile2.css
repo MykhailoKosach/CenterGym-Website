@@ -45,7 +45,7 @@
     align-items: center;
 }
 .trainer-block{
-    height: 280px;
+    height: 340px;
     width: 340px;
     margin-left: 90px;
     margin-right: 90px;
@@ -56,7 +56,7 @@
     flex-direction: row;
 }
 .trainer-img{
-    height: 280px;
+    height: 340px;
     width: 50%;
     background-size: cover;
     background-position: center;
@@ -84,21 +84,21 @@
 .trainer-text-block{
     right:50%;
     top: 0;
-    height: 400px;
+    height: 380px;
     width: 50%;
-    display: flex;
+    display: flex; 
     flex-direction: column;
-    padding-left: 20px;
+    padding-left: 15px;
 }
 .trainer-header{
     margin-bottom: 0px;
     width: 180px;
     height: 50px;
-    font-size: 16px;
+    font-size: 20px;
 }
 h4{
     color: white;
-    font-size: 10px;
+    font-size: 12px;
     font-family: Montserrat;
     font-weight: 600;
     text-transform: uppercase;
@@ -111,10 +111,10 @@ h4{
     margin-bottom: 10px;
 }
 .trainer-description{
-    width: 150px;
+    width: 160px;
     height: 175px;
     color: white;
-    font-size: 7px;
+    font-size: 10px;
     font-family: Montserrat;
     font-weight: 400;
     text-transform: uppercase;
