@@ -141,6 +141,8 @@
         background-image: url(../Images/main-photo.png);
         background-size: cover;
         background-position: center;
+        animation-name: main-text-transition;
+        animation-duration: 3s;
     }
     .main-text{
         display: flex;

@@ -101,6 +101,8 @@
         position: relative;
         height: 720px;
         width: 100%;
+        animation-name: main-text-transition;
+        animation-duration: 3s;
     }
 
     .main-text{

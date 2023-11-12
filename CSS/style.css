@@ -74,12 +74,6 @@
         color:#8BC43D;
     }
     h1{
-        /* position: absolute;
-        top: 0;
-        /* left: 20%; */
-        /* right:50%; */
-        /* padding: 20px; 
-        z-index: 1; */
         color: #8BC43D;
         font-size: 130px;
         font-family: Montserrat;
@@ -89,11 +83,15 @@
         word-wrap: break-word;
         margin-bottom: 0px;
         margin-top: 60px;
+        animation-name: main-text-transition;
+        animation-duration: 3s;
     }
     .main{
         position: relative;
         height: 720px;
         width: 100%;
+        animation-name: main-text-transition;
+        animation-duration: 3s;
     }
     
     .main-text{
@@ -104,7 +102,6 @@
         right:50%;
         z-index: 1;
         justify-items: center;
-    
     }
     .main-img{
         position: absolute;
@@ -113,9 +110,9 @@
         right: 0;
         width: 720px;
         height: 700px;
-        /* margin-left: 720px;
-        margin-right: 350px; */
+
     }
+
     p{
         position: absolute;
         color: white;

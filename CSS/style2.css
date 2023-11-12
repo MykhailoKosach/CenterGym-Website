@@ -8,9 +8,9 @@
 .about-section{
     width: 100%;
     height: 760px;
-    background-image: url(../Images/about-back.png);
+    background-image: url(../Images/about-back.JPG);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +50,7 @@
     align-items: center;
 }
 .trainer-block{
-    height: 400px;
+    height: 420px;
     width: 480px;
     margin-left: 90px;
     margin-right: 90px;
@@ -61,7 +61,7 @@
     flex-direction: row;
 }
 .trainer-img{
-    height: 400px;
+    height: 420px;
     width: 50%;
     background-size: cover;
     background-position: center;
@@ -69,20 +69,20 @@
     border-bottom-left-radius: 10px;
 }
 .img-1{
-    background-image: url(../Images/trener1.JPG); 
+    background-image: url(../Images/main-trener.JPG); 
 }
 .img-2{
-    background-image: url(../Images/trener2.JPG); 
+    background-image: url(../Images/Oleg\ Senchenko.JPG); 
 }
 .img-3{
-    background-image: url(../Images/trener3.JPG); 
+    background-image: url(../Images/Anastasia\ Lisinska.JPG); 
 }
-/* .img-4{
-    background-image: url(../Images/trener3.JPG); 
+.img-4{
+    background-image: url(../Images/Marilena.jpg); 
 }
 .img-5{
-    background-image: url(../Images/trener3.JPG); 
-} */
+    background-image: url(../Images/Yulia.JPG); 
+}
 .img-6{
     background-image: url(../Images/trener6.JPG); 
 }
@@ -195,6 +195,7 @@ h4{
 .main-photo {
     max-height: 450px;
     border-radius: 10px;
+    transition: opacity 0.1s ease-in-out;
 }
 .gallery-widht{
     width: 800px;
@@ -215,6 +216,11 @@ h4{
 .thumbnail-container {
     display: flex;
     justify-content: center;
+}
+
+.thumbnails{
+    display: flex;
+    flex-direction: row;
 }
 .thumbnail {
     cursor: pointer;
