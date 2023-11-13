@@ -325,7 +325,7 @@
     line-height: 30px;
     letter-spacing: 0.36px;
     word-wrap: break-word;
-    width: 68px; 
+    width: 38px; 
     height: 20px;
     background: #8BC43D; 
     border: #8BC43D 2px solid;
@@ -342,5 +342,12 @@
     background-color: #2E2D2E;
     border-color: #828183;
     font-size: 8px;
+    width: 98px;
+    }
+    .teens{
+        font-size: 6px;
+    }
+    .teens1{
+        line-height: 8px; 
     }
 }
