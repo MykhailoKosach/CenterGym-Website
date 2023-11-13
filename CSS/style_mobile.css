@@ -30,15 +30,14 @@
     }
     .logo-img{
         margin-left: 5px;
-        margin-top: 5px;
-        width: 80px;
-        height: 80px;
+        width: 90px;
+        height: 90px;
     }
+
 
     .language{
         display: flex;
         flex-direction: row;
-
         justify-content: center;
         margin-top: 30px;
         margin-bottom: 30px;
@@ -88,8 +87,8 @@
     }
 
     .burgerimg{
-        height: 24px;
-        width: 30px;
+        height: 32px;
+        width: 40px;
 
     }
     #myLinks{
@@ -207,6 +206,9 @@
     .memb-column{
         display: flex;
         flex-flow: row;   
+    }
+    .non-display-mobile{
+        display: none;
     }
     .memb-header{
         font-size: 16px;

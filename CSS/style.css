@@ -165,7 +165,7 @@
         height: 335px;
     }
     .memb2{
-        height: 425px;
+        height: 440px;
     }
     h3{
         color: #8BC43D;
@@ -272,6 +272,12 @@
         background: #2E2D2E;
         border: 2px #828183 solid ;
         border-radius: 5px;
+    }
+    .teens{
+        font-size: 8px;
+    }
+    .teens1{
+        line-height: 15px; 
     }
 }
 

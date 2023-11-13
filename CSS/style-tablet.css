@@ -176,8 +176,8 @@
     }
     .memb{
         background-color: #2E2D2E;
-        width: 150px;
-        height: 202px;
+        width: 190px;
+        height: 180px;
         margin-left: 12px;
         margin-right: 12px;
         border-radius: 10px;
@@ -187,10 +187,10 @@
         margin-bottom: 25px;
     }
     .memb1{
-        height: 240px;
+        height: 235px;
     }
     .memb2{
-        height: 290px;
+        height: 305px;
     }
     .memb-phone{
         display: none;
@@ -208,7 +208,7 @@
     }
     .memb-price{
         height: 45px;
-        width: 130px;
+        width: 160px;
         border: #8BC43D 1px solid;
         border-radius: 5px;
         display: flex;
@@ -269,7 +269,7 @@
     letter-spacing: 0.36px;
     word-wrap: break-word;
     height: 20px;
-    width: 144px;
+    width: 180px;
     background-color: #8BC43D;
     border: #8BC43D 2px solid;
     border-radius: 5px;
@@ -289,7 +289,7 @@
     line-height: 30px;
     letter-spacing: 0.36px;
     word-wrap: break-word;
-    width: 38px; 
+    width: 55px; 
     height: 20px;
     background: #8BC43D; 
     border: #8BC43D 2px solid;
@@ -305,8 +305,8 @@
     color: white;
     background-color: #2E2D2E;
     border-color: #828183;
-    font-size: 8px;
-    width: 98px; 
+    font-size: 9px;
+    width: 115px; 
     }
     .teens{
         font-size: 6px;
