@@ -205,7 +205,8 @@
     }
     .memb-column{
         display: flex;
-        flex-flow: row;   
+        flex-flow: row; 
+        justify-content: center;  
     }
     .non-display-mobile{
         display: none;
@@ -214,11 +215,16 @@
         font-size: 16px;
         margin-bottom: 0px;
         margin-top: 10px;
+        text-align: center;
+        line-height: 15px;
+    }
+    .memb-header2{
+        margin-bottom: 15px;
     }
     .memb{
         background-color: #2E2D2E;
-        width: 150px;
-        height: 202px;
+        width: 160px;
+        height: 185px;
         margin-left: 12px;
         margin-right: 12px;
         border-radius: 10px;
@@ -231,7 +237,11 @@
         height: 240px;
     }
     .memb2{
-        height: 310px;
+        height: 300px;
+    }
+    .memb3{
+        height: 440px;
+        width: 200px
     }
     .memb-desk{
         display: none;
@@ -243,9 +253,10 @@
         font-family: Montserrat;
         font-weight: 600;
         text-transform: uppercase;
-        line-height: 18px;
+        line-height: 15px;
         letter-spacing: 0.4px;
-        word-wrap: break-word
+        word-wrap: break-word;
+        margin-top: 3px;
     }
     .memb-price{
         height: 45px;
@@ -268,6 +279,9 @@
     }
     .price2{
         height: 60px;
+    }
+    .price3{
+        width: 160px;
     }
     .schedule{
         display: none;
@@ -351,5 +365,8 @@
     }
     .teens1{
         line-height: 8px; 
+    }
+    .circle{
+        line-height: 10px; 
     }
 }

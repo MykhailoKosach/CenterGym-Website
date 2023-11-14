@@ -111,7 +111,6 @@ h4{
     letter-spacing: 0.72px;
     word-wrap: break-word;
     width: 220px;
-    height: 20px;
     margin-top: 3px;
 }
 .trainer-description{
@@ -279,6 +278,7 @@ h4{
     line-height: 30px;
     letter-spacing: 0.64px;
     word-wrap: break-word;
+    text-decoration: none;
 }
 .social-icons{
     display: flex;
@@ -305,4 +305,29 @@ h4{
     width: 32px;
     background: none;
   }
+  .copyright{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.64px;
+    word-wrap: break-word;
+    height: 50px;
+  }
+  .copyright-mobile{
+    display: none;
+  }
+    .author{
+    text-decoration: none;
+    color: #8BC43D;
+    margin-left: 5px;
+}
+    .adress{
+    text-decoration: none;
+}
 }

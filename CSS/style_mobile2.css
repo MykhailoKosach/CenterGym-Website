@@ -45,7 +45,7 @@
     align-items: center;
 }
 .trainer-block{
-    height: 340px;
+    height: 360px;
     width: 340px;
     margin-left: 90px;
     margin-right: 90px;
@@ -56,7 +56,7 @@
     flex-direction: row;
 }
 .trainer-img{
-    height: 340px;
+    height: 360px;
     width: 50%;
     background-size: cover;
     background-position: center;
@@ -106,7 +106,6 @@ h4{
     letter-spacing: 0.72px;
     word-wrap: break-word;
     width: 180px;
-    height: 20px;
     margin-top: 0px;
     margin-bottom: 10px;
 }
@@ -293,6 +292,31 @@ h4{
     height: 32px;
     width: 32px;
     background: none;
+}
+.copyright-mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.64px;
+    word-wrap: break-word;
+    height: 75px;
+    text-align: center;
+  }
+  .copyright{
+    display: none;
+  }
+    .author{
+    text-decoration: none;
+    color: #8BC43D;
+}
+    .adress{
+    text-decoration: none;
 }
 
 }

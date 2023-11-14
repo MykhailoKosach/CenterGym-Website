@@ -87,14 +87,14 @@
     h1{
         color: #8BC43D;
         font-family: Montserrat;
-        font-size: 90px;
+        font-size: 120px;
         font-style: normal;
         font-weight: 700;
         letter-spacing: 4.44px;
         text-transform: uppercase;
         word-wrap: break-word;
         margin-bottom: 0px;
-        margin-top: 120px;
+        margin-top: 75px;
         
     }
     .main{
@@ -109,7 +109,7 @@
         display: flex;
         flex-direction: column;
         position: absolute;
-        right:46%;
+        left: 15%;
         z-index: 1;
         justify-content: center;
     }
@@ -173,10 +173,14 @@
         font-size: 16px;
         margin-bottom: 0px;
         margin-top: 10px;
+        text-align: center;
+    }
+    .memb-header2{
+        margin-bottom: 10px;
     }
     .memb{
         background-color: #2E2D2E;
-        width: 190px;
+        width: 230px;
         height: 180px;
         margin-left: 12px;
         margin-right: 12px;
@@ -187,7 +191,7 @@
         margin-bottom: 25px;
     }
     .memb1{
-        height: 235px;
+        height: 250px;
     }
     .memb2{
         height: 305px;
@@ -202,13 +206,13 @@
         font-family: Montserrat;
         font-weight: 600;
         text-transform: uppercase;
-        line-height: 18px;
+        line-height: 10px;
         letter-spacing: 0.4px;
         word-wrap: break-word
     }
     .memb-price{
         height: 45px;
-        width: 160px;
+        width: 180px;
         border: #8BC43D 1px solid;
         border-radius: 5px;
         display: flex;
@@ -314,5 +318,7 @@
     .teens1{
         line-height: 8px; 
     }
-
+    .circle{
+        line-height: 10px; 
+    }
 }

@@ -162,7 +162,7 @@
         align-items: center;
     }
     .memb1{
-        height: 335px;
+        height: 350px;
     }
     .memb2{
         height: 440px;
@@ -179,16 +179,20 @@
     }
     .memb-text{
         color: white;
-        font-size: 14px;
+        font-size: 12px;
         font-family: Montserrat;
         font-weight: 600;
         text-transform: uppercase;
-        line-height: 30px;
+        line-height: 15px;
         letter-spacing: 0.64px;
         word-wrap: break-word
     }
     .memb-header{
         margin-bottom: 0px;
+        text-align: center;
+    }
+    .memb-header2{
+        margin-bottom: 15px;
     }
     .memb-price{
         height: 64px;
@@ -277,6 +281,9 @@
         font-size: 8px;
     }
     .teens1{
+        line-height: 15px; 
+    }
+    .circle{
         line-height: 15px; 
     }
 }
