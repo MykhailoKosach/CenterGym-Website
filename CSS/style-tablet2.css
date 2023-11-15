@@ -194,12 +194,12 @@
         margin-right: 20px;
     }
     .main-photo {
-        max-height: 400px;
+        max-height: 350px;
         border-radius: 10px;
         transition: opacity 0.1s ease-in-out;
     }
     .gallery-widht{
-        width: 720px;
+        width: 630px;
         display: flex;
         flex-direction: column;
         align-items: center;
