@@ -23,6 +23,9 @@
     justify-content: center;
     border-radius: 10px;
 }
+.br-phone{
+    display: none;
+}
 .about-text{
     width: 745px;
     height: 185px;
