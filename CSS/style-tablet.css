@@ -180,10 +180,10 @@
     }
     .memb{
         background-color: #2E2D2E;
-        width: 230px;
+        width: 240px;
         height: 180px;
-        margin-left: 12px;
-        margin-right: 12px;
+        margin-left: 10px;
+        margin-right: 10px;
         border-radius: 10px;
         display: flex;          
         flex-direction: column;
