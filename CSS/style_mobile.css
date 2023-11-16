@@ -370,6 +370,7 @@
         line-height: 8px; 
     }
     .circle{
+        padding-top: 1px;
         line-height: 9px; 
         display: flex;
         flex-direction: column;
