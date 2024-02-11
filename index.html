@@ -19,7 +19,8 @@
     <link rel="stylesheet" href="CSS/style_mobile2.css">   
     <link rel="stylesheet" href="CSS/style-tablet.css">  
     <link rel="stylesheet" href="CSS/style-tablet2.css">  
-    <link rel="stylesheet" href="CSS/animation.css">  
+    <link rel="stylesheet" href="CSS/animation.css"> 
+    <link rel="stylesheet" href="CSS/style_popup.css"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
@@ -71,6 +72,21 @@
             </a>
           </div>
     </header>
+    <div id="popup-overlay">
+        <div id="popup-content">
+          <div class="image-box">
+            <div alt="Image 1" class="popup-image popupimg1">Приведи друга і отримай 5% знижки на тренування</div>
+            <div alt="Image 2" class="popup-image popupimg2">Придбай подарунковий сертифікат і зроби зож-подарунок близькому</div>
+          </div>
+          <div class="button-box">
+            <button class="action-button">Хочу 5% знижки</button>
+            <button class="action-button">Хочу сертифікат</button>
+          </div>
+          
+          <span id="close-button"><img src="Images/close (1).png" alt=""></span>
+        </div>
+    </div>
+      
     <section class="main">
             <div class="main-text">
                 <div><h1>MMA <br> BOXING <br> TRX</h1></div>
@@ -845,6 +861,8 @@
         <div class="copyright-mobile">Copyright ©2023 All rights reserved<br>This website is made by<a href="https://www.linkedin.com/in/mykhailo-kosach/" class="author" target="_blank"> Mykhailo Kosach</a></div>
     </section>
     <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="/Images/back-to-top.png" alt=""></button>
+    <button id="myBtnClick" title="Contact Btn">Запис на тренування</button>
+   
     <script src="/JS/main.js"></script>
 </body>
 </html>

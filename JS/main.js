@@ -5,7 +5,7 @@ let mybutton = document.getElementById("myBtn");
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
@@ -17,6 +17,21 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+
+// // Get the button:
+// let mybutton2 = document.getElementById("myBtnClick");
+
+// // When the user scrolls down 20px from the top of the document, show the button
+// window.onscroll = function() {scrollFunction2()};
+
+// function scrollFunction2() {
+//   if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+//     mybutton2.style.display = "block";
+//   } else {
+//     mybutton2.style.display = "none";
+//   }
+// }
 
 
 
@@ -111,3 +126,24 @@ function myFunction() {
       updateMainPhoto(currentIndex);
       updateThumbnails();
   });
+
+
+  const popupOverlay = document.getElementById('popup-overlay');
+  const closeButton = document.getElementById('close-button');
+  
+  // Show the popup after 5 seconds
+  setTimeout(() => {
+    popupOverlay.style.display = 'block';
+  }, 1000);
+  
+  // Close the popup when clicking the close button or outside the content
+  popupOverlay.addEventListener('click', (event) => {
+    if (event.target.id !== 'popup-content') {
+      popupOverlay.style.display = 'none';
+    }
+  });
+  
+  closeButton.addEventListener('click', () => {
+    popupOverlay.style.display = 'none';
+  });
+  

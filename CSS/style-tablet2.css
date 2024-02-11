@@ -74,7 +74,7 @@
         background-image: url(../Images/Marilena.jpg); 
     }
     .img-5{
-        background-image: url(../Images/Yulia.JPG); 
+        background-image: url(../Images/YULIA\ stoiko.JPG); 
     }
     .img-6{
         background-image: url(../Images/trener6.JPG); 
@@ -286,8 +286,8 @@
     #myBtn {
         display: none; /* Hidden by default */
         position: fixed; /* Fixed/sticky position */
-        bottom: 20px; /* Place the button at the bottom of the page */
-        right: 30px; /* Place the button 30px from the right */
+        bottom: 75px; /* Place the button at the bottom of the page */
+        right: 24px; /* Place the button 30px from the right */
         z-index: 99; /* Make sure it does not overlap */
         border: none; /* Remove borders */
         outline: none; /* Remove outline */
@@ -295,6 +295,30 @@
         height: 32px;
         width: 32px;
         background: none;
+    }
+    #myBtnClick{
+        display: block; /* Hidden by default */
+        position: fixed; /* Fixed/sticky position */
+        color: black;
+        font-size: 14px;
+        font-family: Montserrat;
+        font-weight: 800;
+        text-transform: uppercase;
+        line-height: 16px;
+        letter-spacing: 0.36px;
+        word-wrap: break-word;
+        width: 160px; 
+        height: 45px;
+        background: #8BC43D; 
+        border: #8BC43D 2px solid;
+        border-radius: 25px;
+        text-align: center;
+        padding-left: 24px;
+        padding-right: 24px;
+        bottom: 20px;
+        right: 20px;
+        animation: shake 2s cubic-bezier(0.36, 0.07, 0.19, 0.97) both infinite;
+        cursor: pointer;
     }
     .copyright{
         display: flex;
