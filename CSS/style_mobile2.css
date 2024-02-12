@@ -283,8 +283,8 @@ h4{
 #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
-    bottom: 10px; /* Place the button at the bottom of the page */
-    right: 15px; /* Place the button 30px from the right */
+    bottom: 72px; /* Place the button at the bottom of the page */
+    right: 24px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
@@ -292,6 +292,30 @@ h4{
     height: 32px;
     width: 32px;
     background: none;
+}
+#myBtnClick{
+    display: block; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    color: black;
+    font-size: 12px;
+    font-family: Montserrat;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 16px;
+    letter-spacing: 0.36px;
+    word-wrap: break-word;
+    width: 160px; 
+    height: 40px;
+    background: #8BC43D; 
+    border: #8BC43D 2px solid;
+    border-radius: 25px;
+    text-align: center;     
+    padding-left: 24px;
+    padding-right: 24px;
+    bottom: 20px;
+    right: 20px;
+    animation: shake 2s both infinite ;
+    cursor: pointer;
 }
 .copyright-mobile{
     display: flex;
