@@ -18,9 +18,8 @@
     transform: translate(-50%, -50%); /* Center the popup */
     width: 600px;
     height: 420px;
-    background-color: white;
-    /* background-color: #2E2D2E;
-    border: #8BC43D 2px solid; */
+    background-color: #2E2D2E;
+    border: #8BC43D 1px solid;
     border-radius: 10px;
   }
 
@@ -100,8 +99,13 @@
     margin-right: 40px;
     margin-left: 40px;
     text-align: center;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 23px;
+    padding-right: 23px;
+    cursor: pointer;
+  }
+
+  .button-link{
+    text-decoration: none;
   }
   
   #close-button {

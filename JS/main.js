@@ -18,28 +18,6 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-
-// // Get the button:
-// let mybutton2 = document.getElementById("myBtnClick");
-
-// // When the user scrolls down 20px from the top of the document, show the button
-// window.onscroll = function() {scrollFunction2()};
-
-// function scrollFunction2() {
-//   if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-//     mybutton2.style.display = "block";
-//   } else {
-//     mybutton2.style.display = "none";
-//   }
-// }
-
-
-
-
-
-
-
-
 /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
 function myFunction() {
     var x = document.getElementById("myLinks");

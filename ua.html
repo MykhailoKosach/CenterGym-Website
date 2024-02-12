@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="/CSS/style-tablet.css">  
     <link rel="stylesheet" href="/CSS/style-tablet2.css">  
     <link rel="stylesheet" href="/CSS/animation.css">  
+    <link rel="stylesheet" href="CSS/style_popup.css"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
@@ -75,6 +76,22 @@
         </div>
 
     </header>
+    <div id="popup-overlay">
+        <div id="popup-content">
+          <div class="image-box">
+            <div alt="Image 1" class="popup-image popupimg1">Приведи друга і отримай 5% знижки на тренування</div>
+            <div alt="Image 2" class="popup-image popupimg2">Придбай подарунковий сертифікат</div>
+          </div>
+          <div class="button-box">
+            <a href="https://n814760.alteg.io/" class="button-link" target=”_blank”><button class="action-button">Хочу 5% знижки</button></a>
+            <a href="https://n814760.alteg.io/" class="button-link" target=”_blank”><button class="action-button">Хочу сертифікат</button></a>
+            
+          </div>
+          
+          <span id="close-button"><img src="Images/close (1).png" alt=""></span>
+        </div>
+    </div>
+
     <section class="main">
             <div class="main-text">
                 <div><h1>MMA <br> BOXING <br> TRX</h1></div>
@@ -229,11 +246,11 @@
         </div>
         <div class="schedule-row">
             <div class="schedule-cell">10:00</div>
+            <div class="schedule-cell-day ">бокс</div>
             <div class="schedule-cell-empty"></div>
+            <div class="schedule-cell-day ">бокс</div>
             <div class="schedule-cell-empty"></div>
-            <div class="schedule-cell-empty"></div>
-            <div class="schedule-cell-empty"></div>
-            <div class="schedule-cell-empty"></div>
+            <div class="schedule-cell-day ">бокс</div>
             <div class="schedule-cell-day">бокс (діти)</div>
             <div class="schedule-cell-empty"></div>
         </div>
@@ -298,6 +315,16 @@
             <div class="schedule-cell-empty"></div>
         </div>
         <div class="schedule-row">
+            <div class="schedule-cell">16:00</div>
+            <div class="schedule-cell-empty"></div>
+            <div class="schedule-cell-day">бокс (діти)</div>
+            <div class="schedule-cell-empty"></div>
+            <div class="schedule-cell-day">бокс (діти)</div>
+            <div class="schedule-cell-empty"></div>
+            <div class="schedule-cell-empty"></div>
+            <div class="schedule-cell-empty"></div>
+        </div>
+        <div class="schedule-row">
             <div class="schedule-cell">17:00</div>
             <div class="schedule-cell-day ">мма (діти)</div>
             <div class="schedule-cell-day">бокс (діти)</div>
@@ -352,6 +379,10 @@
                     <div class="schedule-group group-name">мма</div>
                 </div>
                 <div class="schedule-row">
+                    <div class="schedule-group">10:00</div>
+                    <div class="schedule-group group-name">Бокс</div>
+                </div>
+                <div class="schedule-row">
                     <div class="schedule-group">17:00</div>
                     <div class="schedule-group group-name">мма (діти)</div>
                 </div>
@@ -377,6 +408,10 @@
                 <div class="schedule-row">
                     <div class="schedule-group">8:30</div>
                     <div class="schedule-group group-name circle">TRX + функціонал</div>
+                </div>
+                <div class="schedule-row">
+                    <div class="schedule-group">16:00</div>
+                    <div class="schedule-group group-name">бокс (діти)</div>
                 </div>
                 <div class="schedule-row">
                     <div class="schedule-group">17:00</div>
@@ -408,6 +443,10 @@
                     <div class="schedule-group group-name">мма</div>
                 </div>
                 <div class="schedule-row">
+                    <div class="schedule-group">10:00</div>
+                    <div class="schedule-group group-name">Бокс</div>
+                </div>
+                <div class="schedule-row">
                     <div class="schedule-group">17:00</div>
                     <div class="schedule-group group-name">мма (діти)</div>
                 </div>
@@ -433,6 +472,10 @@
                 <div class="schedule-row">
                     <div class="schedule-group">8:30</div>
                     <div class="schedule-group group-name circle">TRX + функціонал</div>
+                </div>
+                <div class="schedule-row">
+                    <div class="schedule-group">16:00</div>
+                    <div class="schedule-group group-name">бокс (діти)</div>
                 </div>
                 <div class="schedule-row">
                     <div class="schedule-group">17:00</div>
@@ -462,6 +505,10 @@
                 <div class="schedule-row">
                     <div class="schedule-group">8:30</div>
                     <div class="schedule-group group-name">мма</div>
+                </div>
+                <div class="schedule-row">
+                    <div class="schedule-group">10:00</div>
+                    <div class="schedule-group group-name">Бокс</div>
                 </div>
                 <div class="schedule-row">
                     <div class="schedule-group">17:00</div>
@@ -496,7 +543,7 @@
                 </div>
                 <div class="schedule-row">
                     <div class="schedule-group">12:30</div>
-                    <div class="schedule-group group-name teens1">бокс <div class="teens">(підлітки+дорослі)</div></div>
+                    <div class="schedule-group group-name teens1">бокс<div class="teens">(підлітки+дорослі)</div></div>
                 </div>
                 <div class="schedule-row">
                     <div class="schedule-group">14:00</div>
@@ -534,6 +581,10 @@
                     <div class="schedule-group group-name">мма</div>
                 </div>
                 <div class="schedule-row">
+                    <div class="schedule-group">10:00</div>
+                    <div class="schedule-group group-name">Бокс</div>
+                </div>
+                <div class="schedule-row">
                     <div class="schedule-group">17:00</div>
                     <div class="schedule-group group-name">мма (діти)</div>
                 </div>
@@ -561,6 +612,10 @@
                     <div class="schedule-group group-name circle">TRX + функціонал</div>
                 </div>
                 <div class="schedule-row">
+                    <div class="schedule-group">16:00</div>
+                    <div class="schedule-group group-name">бокс (діти)</div>
+                </div>
+                <div class="schedule-row">
                     <div class="schedule-group">17:00</div>
                     <div class="schedule-group group-name">бокс (діти)</div>
                 </div>
@@ -586,6 +641,10 @@
                 <div class="schedule-row">
                     <div class="schedule-group">8:30</div>
                     <div class="schedule-group group-name">мма</div>
+                </div>
+                <div class="schedule-row">
+                    <div class="schedule-group">10:00</div>
+                    <div class="schedule-group group-name">Бокс</div>
                 </div>
                 <div class="schedule-row">
                     <div class="schedule-group">17:00</div>
@@ -617,6 +676,10 @@
                     <div class="schedule-group group-name circle">TRX + функціонал</div>
                 </div>
                 <div class="schedule-row">
+                    <div class="schedule-group">16:00</div>
+                    <div class="schedule-group group-name">бокс (діти)</div>
+                </div>
+                <div class="schedule-row">
                     <div class="schedule-group">17:00</div>
                     <div class="schedule-group group-name">бокс (діти)</div>
                 </div>
@@ -642,6 +705,10 @@
                 <div class="schedule-row">
                     <div class="schedule-group">8:30</div>
                     <div class="schedule-group group-name">мма</div>
+                </div>
+                <div class="schedule-row">
+                    <div class="schedule-group">10:00</div>
+                    <div class="schedule-group group-name">Бокс</div>
                 </div>
                 <div class="schedule-row">
                     <div class="schedule-group">17:00</div>
@@ -840,6 +907,7 @@
         <div class="copyright-mobile">Copyright ©2023 All rights reserved<br>This website is made by<a href="https://www.linkedin.com/in/mykhailo-kosach/" class="author" target="_blank"> Mykhailo Kosach</a></div>
     </section>
     <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="/Images/back-to-top.png" alt=""></button>
+    <a href="https://n814760.alteg.io/" target=”_blank”><button id="myBtnClick" title="Contact Btn">Запис на тренування</button></a>
     <script src="/JS/main.js"></script>
 </body>
 </html>
