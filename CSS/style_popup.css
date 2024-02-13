@@ -9,7 +9,7 @@
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     animation-name: main-text-transition;
     animation-duration: 2s;
-    z-index: 5;
+    z-index: 100;
   }
   
   #popup-content {
@@ -134,7 +134,7 @@
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     animation-name: main-text-transition;
     animation-duration: 2s;
-    z-index: 5;
+    z-index: 100;
   }
   
   #popup-content {
