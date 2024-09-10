@@ -201,7 +201,7 @@
     }
     .memb-row{
             display: flex;
-            flex-flow: column;   
+            flex-flow: row;  
     }
     .memb-column{
         display: flex;
@@ -245,6 +245,9 @@
     .memb3{
         height: 440px;
         width: 200px
+    }
+    .memb4{
+        display: none;
     }
     .memb-desk{
         display: none;
@@ -360,8 +363,8 @@
     color: white;
     background-color: #2E2D2E;
     border-color: #828183;
-    font-size: 8px;
     width: 98px;
+    font-weight: 500;
     }
     .teens{
         font-size: 6px;

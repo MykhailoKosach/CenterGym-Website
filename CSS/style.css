@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1600px) {
     
     body{
         margin: 0px;
@@ -220,61 +220,79 @@
         display: none;
     }
     .schedule-tablet{
-        display: none;
-    }
-    .schedule-tablet-display{
-        display: none;
-    }
-    .schedule{
         display: flex;
         flex-flow: column;
         align-items: center;
     }
-    
+    .schedule-tablet-display{
+        display: none;
+    }
+    .schedule-block{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
     .schedule-row{
         display: flex;
         flex-flow: row;
+        /* justify-content: center; */
     }
-    .schedule-cell{
-        color: black;
-        font-size: 12px;
-        font-family: Montserrat;
-        font-weight: 600;
-        text-transform: uppercase;
-        line-height: 30px;
-        letter-spacing: 0.36px;
-        word-wrap: break-word;
-        width: 120px; 
-        height: 30px;
-        margin: 2.5px; 
-        background: #8BC43D; 
-        border: #8BC43D 2px solid;
-        border-radius: 5px;
-        text-align: center;
+    .block-row{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 25px;
     }
-    .schedule-cell-empty{
-        width: 120px; 
-        height: 30px;
-        margin: 2.5px; 
-        border: 2px #828183 solid;
-        border-radius: 5px
+    .schedule-header{
+    color: black;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing: 0.36px;
+    word-wrap: break-word;
+    height: 36px;
+    width: 312px;
+    background-color: #8BC43D;
+    border: #8BC43D 2px solid;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 2px;
     }
-    .schedule-cell-day{
-        color: white;
-        font-size: 12px;
-        font-family: Montserrat;
-        font-weight: 600;
-        text-transform: uppercase;
-        line-height: 30px;
-        letter-spacing: 0.36px;
-        word-wrap: break-word;
-        text-align: center;
-        width: 120px; 
-        height: 30px;
-        margin: 2.5px; 
-        background: #2E2D2E;
-        border: 2px #828183 solid ;
-        border-radius: 5px;
+    .schedule-group{
+    color: black;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing: 0.36px;
+    word-wrap: break-word;
+    width: 104px; 
+    height: 36px;
+    background: #8BC43D; 
+    border: #8BC43D 2px solid;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 2px;
+    }
+    .group-name{
+    color: white;
+    background-color: #2E2D2E;
+    border-color: #828183;
+    font-size: 14px;
+    width: 200px; 
+    font-weight: 500;
     }
     .teens{
         font-size: 8px;
